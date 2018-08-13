@@ -1,6 +1,6 @@
 # Hubot: hubot-auth-persistent
 
-Assign roles to users and restrict command access in other scripts.
+Assign roles to users and restrict command access in other scripts. (Tested on Hubot stackstorm module)
 
 ## Commands
 `<user>` has `<role>` role - Assigns a role to a user
