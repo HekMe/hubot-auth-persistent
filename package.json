@@ -1,0 +1,112 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "hubot-auth-persistent",
+        "scope": null,
+        "escapedName": "hubot-auth-persistent",
+        "name": "hubot-auth-persistent",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/hubot"
+    ]
+  ],
+  "_from": "hubot-auth-persistent@latest",
+  "_inCache": true,
+  "_location": "/hubot-auth-persistent",
+  "_nodeVersion": "8.1.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/hubot-auth-persistent-2.2.0.tgz_1502916983454_0.7503806606400758"
+  },
+  "_npmUser": {
+    "name": "jszaszvari",
+    "email": "jszaszvari@gmail.com"
+  },
+  "_npmVersion": "5.0.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "hubot-auth-persistent",
+    "scope": null,
+    "escapedName": "hubot-auth-persistent",
+    "name": "hubot-auth-persistent",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hubot-auth-persistent/-/hubot-auth-persistent-2.2.0.tgz",
+  "_shasum": "4772aa1de7f1429d8c95b9fcae11795758ef978b",
+  "_shrinkwrap": null,
+  "_spec": "hubot-auth-persistent",
+  "_where": "/hubot",
+  "author": "John Szaszvari https://github.com/jszaszvari)",
+  "bugs": {
+    "url": "https://github.com/jszaszvari/hubot-auth-persistent/hubot-auth/issues"
+  },
+  "contributors": [
+    "technicalpickles",
+    "tombell",
+    "robertfwest",
+    "superkarn",
+    "omares",
+    "rafaelfranca",
+    "mizzy",
+    "jhubert",
+    "davereid",
+    "patcon",
+    "therealklanni",
+    "nick-woodward"
+  ],
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  },
+  "description": "Assign roles to users and restrict command access in other scripts (and remember them on reload)",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "co": "^4.6.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-release": "^0.13.0",
+    "hubot": "^2.18.0",
+    "hubot-test-helper": "^1.4.4",
+    "matchdep": "^1.0.1",
+    "mocha": "^2.4.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "integrity": "sha512-2L4OIdmxZevqM6VtQqNNedsm9L90fdSAvohp703nPEduVkIgk00q//VNM+MtMasTzi9I2KRhrnlwTA5jLiojKw==",
+    "shasum": "4772aa1de7f1429d8c95b9fcae11795758ef978b",
+    "tarball": "https://registry.npmjs.org/hubot-auth-persistent/-/hubot-auth-persistent-2.2.0.tgz"
+  },
+  "homepage": "https://github.com/jszaszvari/hubot-auth-persistent#readme",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "authentication",
+    "roles"
+  ],
+  "license": "MIT",
+  "main": "index.coffee",
+  "maintainers": [
+    "jszaszvari <jszaszvari@gmail.com>"
+  ],
+  "name": "hubot-auth-persistent-json",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jszaszvari/hubot-auth-persistent.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "1.0.0"
+}
